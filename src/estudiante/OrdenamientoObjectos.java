@@ -13,5 +13,8 @@ public class OrdenamientoObjectos {
         arrayEstudiante[2] = new Estudiante ("Carlos","Gutierrez","1235",3,  4.8);
         arrayEstudiante[3] = new Estudiante ("Edwin","Perdomo","1236",2,  4.2);
         arrayEstudiante[4] = new Estudiante ("Fernano","Perelta","1237",1, 3.5);
+        
+        
+        
     }
 }
