@@ -10,9 +10,9 @@ public class Estudiante {
     private String apellido;
     private String identificasion;
     private int puesto;
-    private int nota;
+    private double nota;
     
-    public Estudiante(String nombre, String apellido , String indetificasion , int puesto , int nota){
+    public Estudiante(String nombre, String apellido , String indetificasion , int puesto , double nota){
         setNombre(nombre);
         setApellido(apellido);
         setIdentificasion(identificasion);
@@ -41,7 +41,7 @@ public class Estudiante {
         return puesto;
     }
 
-    public int getNota() {
+    public double getNota() {
         return nota;
     }
 
@@ -61,7 +61,7 @@ public class Estudiante {
         this.puesto = puesto;
     }
 
-    public void setNota(int nota) {
+    public void setNota(double nota) {
         this.nota = nota;
     }
 }
